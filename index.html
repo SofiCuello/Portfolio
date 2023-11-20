@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Agbalumo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <link rel="icon" href="./ic portfolio.png" type="image/png">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+
+<header>
+    <div id="container-nav">
+        <a href=""><h2 id="title">Hola, soy Sofía!</h2></a>
+        <div id="nav-bar">
+
+            <div id="hamburguesa"><span class="material-symbols-outlined">
+                &#9776;
+                </span>
+            </div>
+                <ul id="list">
+                    <li><a href="#title">Inicio</a></li>
+                    <li><a href="#conocimientos">Conocimientos</a></li>
+                    <li><a href="#proyectos">Proyectos</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+            </ul>
+
+        </div>
+    </div>
+
+</header>
+
+<main>
+    <div class="presentacion">
+        <div class="image-presentacion">
+            <img src="./foto.jpg" alt="imagen" width="200px" class="mi-image">
+        </div>
+        <div class="text-presentacion">
+            <p>Hola soy Sofia, una apasionada desarrolladora trainee con un enfoque hacia la creación de soluciones tecnológicas innovadoras.</p>
+        </div>
+    </div>
+
+    <h3 id="conocimientos">CONOCIMIENTOS</h3>
+    <div class="conocimientos">
+        <div class="conocimiento">
+            <img src="./image html.png" alt="" width="150px">
+            <p class="text-conocimieto">HTML "Lenguaje de Marcado de Hipertexto" es el estándar utilizado para la creación y diseño de páginas web. Es un lenguaje de marcado que estructura el contenido de una página web mediante el uso de elementos y etiquetas.</p>
+        </div>
+        <div class="conocimiento">
+            <img src="./image css.png" alt="" width="108px" >
+            <p class="text-conocimieto">CSS "Hojas de Estilo en Cascada" es un lenguaje de diseño que se utiliza para controlar el estilo y la apariencia visual de las páginas web.</p>
+        </div>
+        <div class="conocimiento">
+            <img src="./image js.png" alt="" width="280px">
+            <p class="text-conocimieto">JavaScript es un lenguaje de programación de alto nivel, interpretado y orientado a objetos. Se utiliza para agregar interactividad a las páginas web.</p>
+        </div>
+        <div class="conocimiento">
+            <img src="./paint ma.jpg" alt="" id="image-ma" width="150px">
+            <p class="text-conocimieto">Las metodologías ágiles son un conjunto de enfoques y prácticas para el desarrollo de software. Se centran en responder de manera ágil a los cambios en los requisitos del proyecto y en satisfacer las necesidades del cliente de manera rápida y efectiva.</p>
+        </div>
+    </div>
+
+    <h3 id="proyectos">PROYECTOS</h3>
+    <div class="proyectos">
+        <div class="proyecto" id="rickAndMorty">
+            <a href="https://soficuello.github.io/tpRickAndMorty/" target="_blank"><img src="./rick and morty.jpg" alt="" width="100%" class="image-proyecto">
+            <p class="text-proyecto">Personajes Rick And Morty</p></a>
+        </div>
+        <div class="proyecto" id="barra">
+            <a href="https://soficuello.github.io/barra-de-progreso/" target="_blank"><img src="./image barra.png" alt="" width="100%" class="image-proyecto">
+            <p class="text-proyecto">Barra de progreso</p></a>
+        </div>
+        <div class="proyecto" id="temperatura">
+            <a href="https://soficuello.github.io/temperatura/" target="_blank"><img src="./image temperatura.jpg" alt="" width="100%" class="image-proyecto">
+            <p class="text-proyecto">Temperatura</p></a>
+        </div>
+        <div class="proyecto" id="articulo">
+            <a href="https://soficuello.github.io/articulo/" target="_blank"><img src="./image articulo.jpg" alt="" width="100%" class="image-proyecto">
+            <p class="text-proyecto">Artículo</p></a>
+        </div>
+        <div class="proyecto" id="color">
+            <a href="https://soficuello.github.io/background-color/" target="_blank"><img src="./image color de fondo.jpg" alt="" width="100%" class="image-proyecto">
+            <p class="text-proyecto">Color de Fondo</p></a>
+        </div>
+    </div>
+
+    <h3 id="contacto">CONTACTO</h3>
+    <div class="contacto">
+        <div class="mi-contacto">
+            <div class="red"><a href="https://www.linkedin.com/in/sofia-cuello-58a342204/" target="_blank"><img src="./ic linkedin.png" alt="" width="30px"><span> - Linkedin</span></a>
+            </div>
+            <div class="red"><a href="mailto:sofiicuello1210@gmail.com" target="_blank"><img src="./ic mail.png" alt="" width="30px"><span>- Gmail</span></a>
+            </div>
+            <div class="red"><a href="https://wa.me/qr/BH7JLZ6RMQLDP1" target="_blank"><img src="./ic whatsapp.png" alt="" width="30px"><span>- WhatsApp</span></a>
+            </div>
+
+
+        </div>
+        <div class="form">
+            <form>
+                <h4>Contactame</h4>
+                <div class="item">
+                    <label for="name">Apelido y nombre</label>
+                    <input type="text" name="nombre" id="nombre" placeholder="Ingresá tu apellido y nombre">
+                </div>
+                <div class="item">
+                    <label for="email">Email</label>
+                    <input type="email" name="mail" id="mail" placeholder="Ingresá tu email">
+                </div>
+                <div class="item">
+                    <label for="telefono">WhatsApp</label>
+                    <input type="tel" name="telefono" id="telefono" placeholder="Ingresá tu número de teléfono">
+                </div>
+                <div class="boton">
+                    <br><input type="submit" value="Enviar" id="boton">
+                </div>
+            </form>
+        </div>
+    </div>
+
+<p class="volverArriba"><a href="#title">Volver Arriba</a></p>
+</main>
+
+<footer>
+    <h4 id="title-footer"> Córdoba, Argentina. 
+    </h4>
+    <p><span class="material-symbols-outlined">
+        person_pin_circle
+        </span>2023 Hecho por Sofia Cuello</p>
+</footer>
+
+<script src="./logica.js"></script>
+</body>
+</html>

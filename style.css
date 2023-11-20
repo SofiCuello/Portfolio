@@ -1,0 +1,231 @@
+/* body */
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f2e8cf;
+    
+}
+/* fin del body */
+
+/*header*/
+#title{
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Crimson Pro', serif;
+    font-size: 40px;
+    display: flex;
+    justify-content: flex-start;
+}
+#nav-bar{
+    display: flex;
+    align-items: center;
+}
+header{
+    background-color: rgba(216, 17, 89, 0.8);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* z-index: 1; */
+    border-bottom: 2px solid grey;
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;  
+}
+li{
+    padding: 10px;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+#container-nav{
+    margin: 0 10px 0 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+/* fin del header */
+
+/* menu hamburguesa */
+@media (max-width:800px){
+    #hamburguesa{
+        display:flex;
+        justify-content: flex-end;
+        cursor: pointer;
+        font-size: 24px;
+        padding: 10px;
+    }
+    header{
+        height: 60px;
+    }
+    #nav-bar ul{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        /* z-index: 2; */
+        background-color: rgba(216, 17, 89, 0.5);
+        padding-left: 2px;
+    }
+    #nav-bar ul{
+        display: none;
+    }
+
+}
+
+@media(min-width:801px){
+    #hamburguesa{
+        display: none;
+    }
+    #lista{
+        display: flex;
+        flex-direction: row;
+    }
+}
+/* fin del menu hamburguesa */
+
+/*presentacion*/
+.presentacion{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: rgba(216, 17, 89, 0.8);
+}
+.mi-image{
+    border-radius: 50%;
+}
+
+.text-presentacion{
+    width: 300px;
+    text-align: justify;
+    padding: 20px;
+    font-size: 20px;
+}
+/* fin de presentacion */
+/* titulos */
+h3{
+    display: flex;
+    justify-content: center;
+}
+
+/* conocimientos */
+.conocimientos{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+.conocimiento{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+}
+.text-conocimieto{
+    text-align: justify;
+}
+#image-ma{
+    border-radius: 50%;
+}
+/* fin conocimientos */
+/* proyectos */
+.proyectos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+.proyecto{
+    width: 200px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ff8fa3;
+    margin: 10px;
+}
+.proyecto:hover{
+    box-shadow: 0px 0px 19px 4px rgba(216,17,89,0.73);
+    -webkit-box-shadow: 0px 0px 19px 4px rgba(216,17,89,0.73);
+    -moz-box-shadow: 0px 0px 19px 4px rgba(216,17,89,0.73);
+}
+.text-proyecto{
+    display: flex;
+    justify-content: center;
+}
+.image-proyecto:hover{
+    transform: scale(0.8);
+    transition-duration: 0.8s;
+    filter: grayscale(90%);
+    overflow: hidden;
+}
+/* fin de proyectos */
+
+/* contacto */
+.contacto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+}
+.red{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px;
+}
+input{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+}
+#boton {
+    background-color: #faedcd;
+    color: #6f1d1b;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+}
+.boton{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+#boton:hover{
+    cursor: pointer;
+    background-color: #d5bdaf;
+}
+/* fin de contacto */
+
+.volverArriba a{
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    border: 1px solid rgba(216, 17, 89, 0.8);
+    border-radius: 4px;
+    background-color: rgba(216, 17, 89, 0.3);
+}
+.volverArriba{
+    display: flex;
+    justify-content: center;
+}
+/* footer */
+footer{
+    width: 100%;
+    background-color: rgba(216, 17, 89, 0.8);
+    display: flex;
+    flex-direction: column;
+    padding: 6px;
+    align-items: center;
+    justify-content: flex-end;
+}
+/* fin del footer */
